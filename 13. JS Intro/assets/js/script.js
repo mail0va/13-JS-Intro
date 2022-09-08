@@ -1,4 +1,7 @@
 var hour = new Date().getHours();
+
+console.log(hour);
+
 if (hour >=6 && hour <=12) {
     document.body.style.backgroundColor = 'yellow';
     alert('Good morning');
